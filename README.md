@@ -6,16 +6,20 @@ This is backend system  allows users to create, store, and share their recipes. 
    - ``` docker-compose up --build ```
 2. Wait for containers to build
 3. Open (pgadmin)[localhost:5050]
+   - Email: ``` admin@admin.com ```
+   - Password: ``` root ```
 4. Create server with the following properties
 
+   - The password of the database is ``` recipe_manager ```
+   
    - ![This image show pgadmin properties](https://github.com/Starseemer/Recipe-Curator-Backend/blob/main/media/db_server_create_1.png)
    - ![This image show pgadmin properties](https://github.com/Starseemer/Recipe-Curator-Backend/blob/main/media/db_server_create_2.png)
 
-6. When we press save button, pgadmin trigers a automatic script that creates our tables. If not copy the script from [here](https://github.com/Starseemer/Recipe-Curator-Backend/blob/main/sql/create_tables.sql) and paste it to script tool.
-7. The end product should look like this
+5. When we press save button, pgadmin trigers a automatic script that creates our tables. If not copy the script from [here](https://github.com/Starseemer/Recipe-Curator-Backend/blob/main/sql/create_tables.sql) and paste it to script tool.
+6. The end product should look like this
 
    - ![This image show pgadmin folder structure after running the create tables script run](https://github.com/Starseemer/Recipe-Curator-Backend/blob/main/media/db_server_create_3.png)
-9. Your backend is ready to use.
+7. Your backend is ready to use.
 
 ## Usage
 There 6 services under the backend system. These are;
